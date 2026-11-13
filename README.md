@@ -1,6 +1,12 @@
-# Golang
+<p align="center">
+  <img src="assets/go-logo.png" alt="Go logo" width="234">
+</p>
 
-My notes and practice code while learning Go (Golang) from the basics.
+<h1 align="center">Golang</h1>
+
+<p align="center">
+  My notes and practice code while learning Go (Golang) from the basics.
+</p>
 
 ## About Go
 
