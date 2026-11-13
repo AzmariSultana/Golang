@@ -53,23 +53,6 @@ func main() {
 }
 ```
 
-## Repository Structure
-
-| Folder | Topics |
-| --- | --- |
-| [Fundamentals](Fundamentals) | Values and printing, variables, constants, enums with `iota`, plus a PDF of study notes |
-
-### Fundamentals
-
-| File | Topic |
-| --- | --- |
-| `values.go` | Basic data types and printing with `fmt` |
-| `variable.go` | Declaring variables, zero values and `:=` |
-| `constants.go` | Constants, scope, `float32` vs `float64` |
-| `enums.go` | Enums using `const` blocks and `iota` |
-| `Go_Fundamentals.pdf` | Beginner study notes for all four topics |
-
-Each file has its own `main` function, so run them one at a time, for example `go run Fundamentals/enums.go`.
 
 ## Useful Resources
 
