@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  My notes and practice code while learning Go (Golang) from the basics.
+  This repository contains my notes and practice code while learning Go (Golang) from the basics.
 </p>
 
 ## About Go
