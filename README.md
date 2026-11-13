@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/go-logo.png" alt="Go logo" width="234">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/go-logo-dark.png">
+    <img src="assets/go-logo-light.png" alt="Go logo" width="164">
+  </picture>
 </p>
 
 <h1 align="center">Golang</h1>
