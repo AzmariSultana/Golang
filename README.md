@@ -5,43 +5,46 @@
   </picture>
 </p>
 
-
 <p align="center">
   This repository contains my notes and practice code while learning Go (Golang) from the basics.
 </p>
 
 ## About Go
 
-Go is an open-source programming language created at Google by Robert Griesemer, Rob Pike and Ken Thompson, and released in 2009. It was designed to be simple, fast and reliable for building large software.
+Go, often called Golang, is an open-source, statically typed and compiled programming language designed at Google by Robert Griesemer, Rob Pike and Ken Thompson. It was announced in 2009, and version 1.0 was released in 2012.
 
-Some things that make Go stand out:
+Go was created to make building large, reliable software simpler. It combines the speed and safety of a compiled language with the readability of a scripting language, and it has built-in support for concurrency.
 
-- **Simple syntax.** The language has a small set of keywords, so it is quick to learn and easy to read.
-- **Compiled and fast.** Go compiles to a single native binary with no extra runtime to install.
-- **Statically typed.** Types are checked at compile time, which catches many mistakes before the program runs.
-- **Built-in concurrency.** Goroutines and channels make it easy to run many tasks at the same time.
-- **Garbage collected.** Memory is managed automatically.
-- **Strong standard library.** Packages for HTTP servers, JSON, file handling, testing and more come with Go.
-- **Good tooling.** `go fmt`, `go test`, `go vet` and `go mod` are included out of the box.
+## Key Features
 
-Go is widely used for backend services, APIs, cloud and DevOps tools, and command-line programs. Docker, Kubernetes and Terraform are all written in Go.
+- **Simple and readable.** Go has a small set of keywords and one standard code style, so code written by different people looks familiar.
+- **Fast compilation.** Even large projects compile in seconds into a single native binary with no external runtime.
+- **Static typing.** Types are checked at compile time, catching many errors before the program runs.
+- **Concurrency built in.** Goroutines are lightweight threads, and channels let them communicate safely.
+- **Garbage collection.** Memory is managed automatically.
+- **Rich standard library.** Networking, HTTP servers, JSON, file handling, testing and cryptography are included.
+- **Cross-platform.** The same code can be compiled for Windows, macOS and Linux.
+- **Built-in tooling.** Formatting, testing, dependency management and documentation tools ship with the language.
+
+## Where Go Is Used
+
+- Backend services and REST APIs
+- Cloud-native and distributed systems
+- DevOps and infrastructure tools
+- Command-line applications
+- Networking and microservices
+
+Well-known projects written in Go include Docker, Kubernetes, Terraform and Prometheus.
 
 ## Getting Started
 
-1. Download and install Go from [go.dev/dl](https://go.dev/dl/).
-2. Check the installation:
+Download and install Go from [go.dev/dl](https://go.dev/dl/), then check the installation:
 
-   ```bash
-   go version
-   ```
+```bash
+go version
+```
 
-3. Run a single file:
-
-   ```bash
-   go run values.go
-   ```
-
-A minimal Go program looks like this:
+A minimal Go program:
 
 ```go
 package main
@@ -53,10 +56,29 @@ func main() {
 }
 ```
 
+Save it as `main.go` and run it:
 
-## Useful Resources
+```bash
+go run main.go
+```
 
-- [A Tour of Go](https://go.dev/tour/)
-- [Go by Example](https://gobyexample.com/)
-- [Effective Go](https://go.dev/doc/effective_go)
-- [Go Documentation](https://go.dev/doc/)
+## Common Go Commands
+
+| Command | Description |
+| --- | --- |
+| `go run file.go` | Compile and run a program |
+| `go build` | Compile the package into an executable |
+| `go mod init name` | Create a new module |
+| `go mod tidy` | Add missing and remove unused dependencies |
+| `go fmt ./...` | Format code in the standard Go style |
+| `go vet ./...` | Report suspicious code |
+| `go test ./...` | Run tests |
+| `go doc fmt.Println` | Show documentation for a package or function |
+
+## Learning Resources
+
+- [A Tour of Go](https://go.dev/tour/): interactive introduction to the language
+- [Go by Example](https://gobyexample.com/): short, practical examples
+- [Effective Go](https://go.dev/doc/effective_go): writing clear, idiomatic Go
+- [Go Documentation](https://go.dev/doc/): official guides and references
+- [Go Standard Library](https://pkg.go.dev/std): documentation for built-in packages
