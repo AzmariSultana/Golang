@@ -5,7 +5,6 @@
   </picture>
 </p>
 
-<h1 align="center">Golang</h1>
 
 <p align="center">
   My notes and practice code while learning Go (Golang) from the basics.
