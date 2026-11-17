@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  This repository contains my notes and practice code while learning Go (Golang) from the basics.
+  A structured collection of my beginner-friendly Go notes, code examples, and practice programs documenting my journey of learning Go from scratch.
 </p>
 
 ## About Go
