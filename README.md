@@ -6,7 +6,8 @@
 </p>
 
 <p align="center">
-  A structured collection of my beginner-friendly Go notes, code examples, and practice programs documenting my journey of learning Go from scratch.
+  A structured collection of my beginner-friendly Go notes, code examples, and practice programs 
+	documenting my journey of learning Go from scratch.
 </p>
 
 ## About Go
